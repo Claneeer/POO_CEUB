@@ -1,0 +1,21 @@
+public class Atividade{
+    private String titulo;
+    private Aluno aluno;
+
+    public Atividade(String titulo, Aluno aluno){
+        this.titulo=titulo;
+        this.aluno=aluno;
+    }
+    public String getTitulo(){
+    return titulo
+}
+    public void setTitulo(String titulo){
+    this.titulo=titulo;
+}
+    public String getAluno(){
+    return aluno
+}
+    public void setAluno(String aluno){
+    this.aluno=aluno;
+}
+}

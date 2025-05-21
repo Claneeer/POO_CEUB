@@ -1,0 +1,15 @@
+public class Professor extends Usuario{
+    private int matricula;
+    private List<atividade> atividades;
+    public Professor(int matricula,List atividades){
+        super(nome,email,senha,cargo);
+        this.matricula=matricula;
+        this.atividades=atividades;
+    }
+    public int getMatricula(){
+        return matricula;
+    }
+    public void setMatricula(String matricula){
+        this.matricula=matricula;
+    }
+}

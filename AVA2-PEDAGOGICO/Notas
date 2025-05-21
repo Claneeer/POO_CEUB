@@ -1,0 +1,14 @@
+public class Notas extends Atividade{
+    private double nota;
+
+    public Atividade(double nota){
+        super(titulo,aluno);
+        this.nota=nota;
+    }
+    public String getNota(){
+    return nota
+}
+    public void setNota(String nota){
+    this.nota=nota;
+}
+}

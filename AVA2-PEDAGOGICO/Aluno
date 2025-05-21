@@ -1,0 +1,13 @@
+public class Aluno extends Usuario{
+    private String turma;
+}
+public Aluno(String turma){
+    super(nome,email,senha,cargo);
+    this.turma=turma;
+}
+public String getTurma(){
+    return turma
+}
+public void setTurma(String turma){
+    this.turma=turma;
+}
